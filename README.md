@@ -13,3 +13,4 @@ yay -S hyprland-bin kitty waybar-hyprland \
 ```
 
 Or you can use the attached script "set-hypr" to install everything for you.
+![image](https://user-images.githubusercontent.com/122752743/229271287-3bb321e6-3453-499c-8fc8-e06e6aceb337.png)
