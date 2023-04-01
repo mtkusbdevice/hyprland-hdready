@@ -6,7 +6,8 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "height": 30,
-    "modules-left": ["clock","hyprland/window"],
+    "modules-left": ["clock"],
+    //"modules-left": ["clock","hyprland/window"],
     "modules-center": [],
     "modules-right": ["temperature","custom/power_profile","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     "hyprland/window": {
@@ -31,14 +32,14 @@
         }
     },
     
-    "custom/power_profile":{
+    //"custom/power_profile":{
         //shows the current power profile and switches to next on click
-        "exec": "asusctl profile -p | sed s:'Active profile is'::",
-        "interval": 30,
-        "format": "󰈐{}", 
-        "on-click": "asusctl profile -n; pkill -SIGRTMIN+8 waybar",
-        "signal": 8
-    },
+    //    "exec": "asusctl profile -p | sed s:'Active profile is'::",
+    //    "interval": 30,
+    //    "format": "󰈐{}", 
+    //    "on-click": "asusctl profile -n; pkill -SIGRTMIN+8 waybar",
+    //    "signal": 8
+    //},
 
     //"custom/weather" : {
         //shows the current weather and forecast
@@ -50,7 +51,7 @@
     //},
 
     "tray": {
-        "icon-size": 18,
+        "icon-size": 15,
         "spacing": 10
     },
 

@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: 11px;
     min-height: 0;
+    transition: 0.3s;
 }
 
 window#waybar {
@@ -14,10 +15,11 @@ window#waybar {
 
 tooltip {
     background: #1e1e2e;
-    border-radius: 15px;
-    border-width: 2px;
+    border-radius: 10px;
+    border-width: 1.5px;
     border-style: solid;
     border-color: #11111b;
+    transition: 0.3s;
 }
 
 #workspaces button {
@@ -63,7 +65,7 @@ tooltip {
     background: #1e1e2e;
     opacity: 0.8;
     padding: 0px 10px;
-    margin: 3px 0px;
+    margin: 0;
     margin-top: 5px;
     border: 1px solid #181825;
 }
@@ -78,11 +80,13 @@ tooltip {
 
 #backlight {
     border-radius: 20px 0px 0px 20px;
+    padding-left: 7px;
 }
 
 #tray {
     border-radius: 20px;
     margin-right: 5px;
+    padding: 0px 4px;
 }
 
 #workspaces {
@@ -110,6 +114,8 @@ tooltip {
     border-radius: 20px;
     margin-left: 5px;
     border-right: 0px;
+    transition: 0.3s;
+    padding-left: 7px;
 }
 
 #network {
@@ -136,13 +142,14 @@ tooltip {
     border-left: 0px;
     border-right: 0px;
     border-radius: 0px 20px 20px 0px;
-    margin-right: 10px;
+    margin-right: 5px;
+    padding-right: 8px;
 }
 
 #battery {
     color: #a6e3a1;
     border-radius: 0 20px 20px 0;
-    margin-right: 10px;
+    margin-right: 5px;
     border-left: 0px;
 }
 
