@@ -23,3 +23,17 @@ yay -S hyprland-bin kitty waybar-hyprland \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 ```
 
+# Keybindings
+
+```SUPER + SPACE``` - Show the graphicall app launcher
+```SUPER + Shift + S``` - Select area for screenshot
+```SUPER + Q``` - Launch kitty (default terminal)
+```SUPER + X``` - Close focused window
+```SUPER + E``` - Launch Thunar (GUI File Manager)
+```Shift + Tab``` - Switch between keyboard layouts (Default: us,ru)
+```SUPER + L``` - Lock the screen
+```SUPER + V``` - Toggle window floating
+```SUPER + M``` - Show power/logout menu
+```SUPER + Shift + M``` - Exit Hyprland all together no (force quit Hyprland)
+```SUPER + P``` - psuedo, dwindle
+```SUPER + J``` - togglesplit, dwindle
