@@ -6,7 +6,7 @@ Collection of dot config files for hyprland for HDReady displays with a simple i
 Use the attached script "set-hypr" to install everything for you automatically.
 
 # Manual Installation
-You can grab the config files and install packages manually with this commnad
+Grab the config files and install packages with this commnad
 ```
 yay -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
