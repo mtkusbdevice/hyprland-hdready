@@ -3,7 +3,7 @@ Collection of dot config files for hyprland for HDReady displays with a simple i
 
 ![image](https://user-images.githubusercontent.com/122752743/229271287-3bb321e6-3453-499c-8fc8-e06e6aceb337.png)
 
-You can grab the config files and install packages by hand with this commnad
+You can grab the config files and install packages manually with this commnad
 ```
 yay -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
