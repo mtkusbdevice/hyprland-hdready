@@ -3,7 +3,7 @@ Collection of dot config files for hyprland for HDReady displays with a simple i
 
 ![image](https://user-images.githubusercontent.com/122752743/229271287-3bb321e6-3453-499c-8fc8-e06e6aceb337.png)
 
-Use the attached script "set-hypr" to install everything for you automatically.
+Use the attached script "set-hypr" to install everything automatically.
 
 # Manual Installation
 Grab the config files and install packages with this commnad
@@ -16,3 +16,4 @@ yay -S hyprland-bin kitty waybar-hyprland \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 ```
+
