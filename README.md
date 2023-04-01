@@ -3,7 +3,7 @@ Collection of dot config files for hyprland for HDReady displays with a simple i
 
 ![image](https://user-images.githubusercontent.com/122752743/229271287-3bb321e6-3453-499c-8fc8-e06e6aceb337.png)
 
-Use the attached script "set-hypr" to install everything automatically.
+Copy the yay git and install it, then copy this repo to /opt/ and make it owned by you (NOT ROOT), after that use the attached script "set-hypr" to install everything automatically.
 
 ```
 chmod +x set-hypr && ./set-hypr
