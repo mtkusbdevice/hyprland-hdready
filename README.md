@@ -1,4 +1,4 @@
-# hyprland-hdready
+# Overview and automatic installation
 Collection of dot config files for hyprland for HDReady displays with a simple install script for a fresh Arch linux with yay
 
 ![image](https://user-images.githubusercontent.com/122752743/229271287-3bb321e6-3453-499c-8fc8-e06e6aceb337.png)
