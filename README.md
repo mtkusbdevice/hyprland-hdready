@@ -5,6 +5,10 @@ Collection of dot config files for hyprland for HDReady displays with a simple i
 
 Use the attached script "set-hypr" to install everything automatically.
 
+```
+chmod +x set-hypr && ./set-hypr
+```
+
 # Manual Installation
 Grab the config files and install packages with this commnad
 ```
