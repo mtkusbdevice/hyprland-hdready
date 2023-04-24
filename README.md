@@ -1,9 +1,7 @@
 # Overview and automatic installation
 Collection of dot config files for hyprland for HDReady displays with a simple install script for a fresh Arch linux with yay
 
-![image](https://user-images.githubusercontent.com/122752743/229296919-466b6798-0ada-4070-b15a-749712dc1add.png)
-
-
+![image](https://user-images.githubusercontent.com/122752743/233912094-6aeed38f-b26c-44ea-8d4c-a1e5add1a205.png)
 
 Copy the yay git and install it, then copy this repo to /opt/ and make it owned by you (NOT ROOT), after that use the attached script "set-hypr" to install everything automatically.
 
@@ -27,10 +25,10 @@ yay -S hyprland-bin kitty waybar-hyprland \
 
 ```SUPER + SPACE``` - Show the graphicall app launcher; 
 ```SUPER + Shift + S``` - Select area for screenshot; 
-```SUPER + Q``` - Launch kitty (default terminal); 
-```SUPER + X``` - Close focused window; 
+```SUPER + RETURN``` - Launch kitty (default terminal); 
+```ALT + F4``` - Close focused window; 
 ```SUPER + E``` - Launch Thunar (GUI File Manager); 
-```Shift + Tab``` - Switch between keyboard layouts (Default: us,ru); 
+```Shift + Alt``` - Switch between keyboard layouts (Default: us,ru); 
 ```SUPER + L``` - Lock the screen; 
 ```SUPER + V``` - Toggle window floating; 
 ```SUPER + M``` - Show power/logout menu; 
