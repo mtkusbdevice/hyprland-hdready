@@ -14,7 +14,7 @@
 # wofi: This is an application launcher menu
 # wlogout: This is a logout menu that allows for shutdown, reboot and sleep
 # mako: This is a graphical notification daemon
-# thunar: This is a graphical file manager
+# nautilus: This is a graphical file manager
 # ttf-jetbrains-mono-nerd: Som nerd fonts for icons and overall look
 # noto-fonts-emoji: fonts needed by the weather script in the top bar
 # polkit-gnome: needed to get superuser access on some graphical appliaction
@@ -60,7 +60,7 @@ fi
 read -n1 -rep 'Would you like to install the packages? (y,n)' INST
 if [[ $INST == "Y" || $INST == "y" ]]; then
     yay -S --noconfirm hyprland kitty waybar-hyprland \
-    swaybg swaylock-effects wofi wlogout mako thunar \
+    swaybg swaylock-effects wofi wlogout mako nautilus \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
     polkit-gnome python-requests starship \
     swappy grim slurp pamixer brightnessctl gvfs \
