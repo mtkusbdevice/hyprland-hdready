@@ -1,7 +1,7 @@
 # Overview and automatic installation
 Collection of dot config files for hyprland for HDReady displays with a simple install script for a fresh Arch linux with yay
 
-![image](https://user-images.githubusercontent.com/122752743/233912094-6aeed38f-b26c-44ea-8d4c-a1e5add1a205.png)
+![image](https://github.com/vidowner/hyprland-hdready/assets/122752743/93760215-2f98-4101-a7f9-b929abeee163)
 
 Copy the yay git and install it, then copy this repo to /opt/ and make it owned by you (NOT ROOT), after that use the attached script "set-hypr" to install everything automatically.
 
