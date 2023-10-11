@@ -61,9 +61,9 @@ read -n1 -rep 'Would you like to install the packages? (y,n)' INST
 if [[ $INST == "Y" || $INST == "y" ]]; then
     yay -S --noconfirm hyprland kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako peazip thunar \
-    ttf-jetbrains-mono-nerd noto-fonts-emoji \
+    ttf-jetbrains-mono-nerd noto-fonts-emoji noto-fonts-extra noto-fonts-cjk \
     polkit-gnome python-requests starship \
-    swappy grim slurp pamixer brightnessctl gvfs \
+    swappy grim slurp pamixer brightnessctl gvfs gvfs-mtp \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 
@@ -99,7 +99,7 @@ if [[ $STAR == "Y" || $STAR == "y" ]]; then
     # install the starship shell
     echo -e "Updating .bashrc...\n"
     echo -e '\neval "$(starship init bash)"' >> ~/.bashrc
-    echo -e "copying starship config file to ~/.confg ...\n"
+    echo -e "copying starship config file to ~/.config ...\n"
     cp starship.toml ~/.config/
 fi
 
